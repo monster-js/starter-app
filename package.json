@@ -1,0 +1,38 @@
+{
+  "name": "monster-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --port 4000 --config ./.monster/webpack.config.js --env environment=dev",
+    "build": "webpack --config ./.monster/webpack.config.js --env environment=prod"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-proposal-decorators": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@monster-js/transformer": "^0.0.1",
+    "@types/node": "^17.0.31",
+    "@types/reflect-metadata": "^0.1.0",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "css-tree": "^2.1.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "@monster-js/core": "^0.0.1",
+    "@monster-js/http": "^0.0.1",
+    "@monster-js/module": "^0.0.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}
