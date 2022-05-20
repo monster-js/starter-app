@@ -13,7 +13,7 @@
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
-    "@monster-js/transformer": "^0.0.1",
+    "@monster-js/transformer": "^0.0.3",
     "@types/node": "^17.0.31",
     "@types/reflect-metadata": "^0.1.0",
     "babel-loader": "^8.2.5",
@@ -30,9 +30,9 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "@monster-js/core": "^0.0.1",
+    "@monster-js/core": "^0.0.16",
     "@monster-js/http": "^0.0.1",
-    "@monster-js/module": "^0.0.1",
+    "@monster-js/module": "^0.0.2",
     "reflect-metadata": "^0.1.13"
   }
 }
