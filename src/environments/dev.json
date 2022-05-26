@@ -1,0 +1,5 @@
+{
+    "MODE": "development",
+    "API": "http://localhost:4001/api/v1",
+    "WEBSOCKET_ORIGIN": "http://localhost:4001"
+}
