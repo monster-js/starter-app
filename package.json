@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@monster-js/core": "^1.0.1",
-    "@monster-js/http": "^1.0.0",
+    "@monster-js/http": "^1.0.1",
     "@monster-js/module": "^1.0.0",
     "reflect-metadata": "^0.1.13"
   }
