@@ -30,9 +30,9 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "@monster-js/core": "^1.1.1",
+    "@monster-js/core": "^1.1.2",
     "@monster-js/http": "^1.1.0",
-    "@monster-js/module": "^1.1.0",
+    "@monster-js/module": "^1.1.2",
     "reflect-metadata": "^0.1.13"
   }
 }
