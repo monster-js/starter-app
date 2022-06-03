@@ -1,5 +1,3 @@
 {
-    "MODE": "production",
-    "API": "https://dotnet-family-tree-server.herokuapp.com/api/v1",
-    "WEBSOCKET_ORIGIN": "https://dotnet-family-tree-server.herokuapp.com"
+    "MODE": "production"
 }
