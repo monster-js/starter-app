@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.18.3",
-    "@monster-js/core": "^1.2.1",
+    "@monster-js/core": "^1.2.2",
     "@monster-js/http": "^1.2.0",
     "@monster-js/module": "^1.2.1",
     "reflect-metadata": "^0.1.13"
