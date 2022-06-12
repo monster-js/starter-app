@@ -1,6 +1,6 @@
 {
   "name": "monster-app",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "license": "MIT",
   "scripts": {
     "start": "mn serve",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.18.3",
-    "@monster-js/core": "^1.2.4",
+    "@monster-js/core": "^1.2.5",
     "@monster-js/http": "^1.2.0",
     "@monster-js/module": "^1.2.3",
     "reflect-metadata": "^0.1.13"
