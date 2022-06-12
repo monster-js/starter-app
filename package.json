@@ -7,6 +7,7 @@
     "build": "mn build"
   },
   "devDependencies": {
+    "@monster-js/tester": "^0.0.4",
     "typescript": "^4.6.4"
   },
   "dependencies": {
