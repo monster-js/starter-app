@@ -7,22 +7,22 @@ export class App {
         return <div style="width: 100%;height: 100%;font-family: 'Kanit', sans-serif;text-align: center;">
             <div style="position: absolute;top: 45%;left: 50%;transform: translate(-50%,-50%);">
                 <div style="text-align: center;margin: 0;padding: 0;">
-                    <img src="../assets/img/dragon.svg" alt="" width='175' height='175'/>
+                    <img src="../assets/img/dragon.svg" alt="" width='100' height='100'/>
                 </div>
                 <div>
-                    <p style="font-size: 30px;letter-spacing: 3px; color: #143258;margin-top:10px;">Welcome to <strong>MonsterJs</strong>!</p>
+                    <p style="font-size: 25px;letter-spacing: 3px; color: #143258;margin-top:10px;">Welcome to <strong>MonsterJs</strong>!</p>
                 </div>
                 <div>
                     <div style="display: flex;width: 100%;">
-                        <div style="border-radius: 5px;border: 1px solid rgb(170, 170, 170);padding: 15px 30px;margin: 5px 10px;width: 150px;">
+                        <div style="border-radius: 5px;border: 1px solid rgb(170, 170, 170);padding: 12px 10px;margin: 5px 10px;width: 150px;">
                             <a style="color: #143258;font-size: 14px;text-decoration: none;" href="https://monster-js.org/docs/" target="_blank"><i style="margin-right: 10px;font-size: 18px;color: #143258;" class="fa-solid fa-rocket"></i>Get Started here</a>
                         </div>
-                        <div style="border-radius: 5px;border: 1px solid rgb(170, 170, 170);padding: 15px 30px;margin: 5px 10px;width: 150px;">
+                        <div style="border-radius: 5px;border: 1px solid rgb(170, 170, 170);padding: 12px 10px;margin: 5px 10px;width: 150px;">
                             <a style="color: #143258;font-size: 14px;text-decoration: none;" href="https://monster-js.org/docs/cli-installation" target="_blank"><i style="margin-right: 10px;font-size: 18px;color: #143258;"  class="fa-solid fa-terminal"></i>CLI Guide</a>
                         </div> 
                     </div>
                     <div style="display: flex;width: 100%; justify-content: center;">
-                        <div style="border-radius: 5px;border: 1px solid rgb(170, 170, 170);padding: 15px 30px;margin: 5px 10px;width: 150px;">
+                        <div style="border-radius: 5px;border: 1px solid rgb(170, 170, 170);padding: 12px 10px;margin: 5px 10px;width: 150px;">
                             <a style="color: #143258;font-size: 14px;text-decoration: none;" href="https://monster-js.org/docs/testing" target="_blank"><i style="margin-right: 10px;font-size: 18px;color: #143258;"  class="fa-solid fa-code"></i>Testing</a>
                         </div>
                     </div>
