@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.container{
+    width: 100%;
+    height: 100%;
+    background: rgb(226, 226, 226);
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    .content-wrapper{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        .logo{
+            text-align: center;margin: 0;padding: 0;
+        }
+        .logo-desc{
+            font-size: 25px;
+            letter-spacing: 3px;
+            color: #143258;
+            margin-top:10px;
+        }
+    }
+    .references{ 
+        .group{
+            display: flex;
+            width: 100%;
+            .admonition{
+                border-radius: 5px;
+                border: 1px solid rgb(170, 170, 170);
+                padding: 12px 10px;
+                margin: 5px 10px;
+                width: 150px;
+                a{
+                    color: #143258;
+                    font-size: 14px;
+                    text-decoration: none;
+                    i{
+                        margin-right: 10px;
+                        font-size: 18px;
+                        color: #143258;
+                    }
+                }
+            }
+        }
+        .justify-center{
+            justify-content: center;
+        }
+    }
+    .footer{
+        position: fixed; 
+        bottom:0;left:50%; 
+        transform:translate(-50%); 
+        margin-bottom: 20px;
+        .descriptions{
+            font-size: 16px; 
+            color: #143258; 
+            margin-bottom: 5px;
+        }
+        .group{
+            display: inline-flex;
+            margin-bottom: 15px;
+            .packages{
+                margin: 5px 10px;
+                a{
+                    text-decoration: underline;
+                    font-size: 14px;
+                    color: #143258;
+                }
+            }
+        }
+        .socials-wrapper{
+            bottom: 0;
+            align-items: center;
+            width: 100%;
+            .wrapper{
+                text-align: center;
+                padding: 20px;
+            }
+            a{
+                font-size: 16px;
+                padding: 20px 20px;
+                i{
+                    color: #143258;
+                }
+                :hover{
+                    color: #081d3a;
+                }
+            }
+        }
+    }
+}
