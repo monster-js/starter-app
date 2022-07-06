@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import '@monster-js/core/polyfill';
+import '@monster-js/polyfill';
 import './styles.scss';
 import { AppModule } from './app/app.module';
 
